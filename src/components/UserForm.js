@@ -38,4 +38,18 @@ class UserForm extends React.Component {
 
 }
 
-export default UserForm;
+const ConnectedUserForm = (props) => {
+  return (
+    <UserConsumer>
+      { value => (
+        <UserForm 
+          { ...props }
+          firstName={value.firstName}
+          lastName={value.lastName}
+        />
+      )}
+    </UserConsumer>
+  )
+}
+
+export default ConnectedUserForm;

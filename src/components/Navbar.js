@@ -15,7 +15,6 @@ const Navbar = () => (
     <NavLink to="/User/profile">
       <Menu.Item>
         {value.username}
-        username
       </Menu.Item>
     </NavLink>
   </Menu> 

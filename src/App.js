@@ -1,11 +1,11 @@
-import React, { Fragment, } from 'react';
+import React from 'react';
 import Navbar from "./components/Navbar";
 import UserProfile from "./components/UserProfile";
 import { Container, } from "semantic-ui-react";
 import { Switch, Route, } from "react-router-dom";
 
 const App = () => (
-  <Fragment>
+  <>
     <Navbar />
     <Container>
       <Switch>
@@ -16,12 +16,12 @@ const App = () => (
         />
         <Route
           exact
-          path="/account/profile"
+          path="/user/profile"
           render={ () => <UserProfile /> }
         />
       </Switch>
     </Container>
-  </Fragment>
+  </>
 )
 
 export default App;

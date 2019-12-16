@@ -17,7 +17,7 @@ const User = () => (
           </Card.Meta>
         </Card.Content>
         <Card.Content>
-          <h1>on some shit</h1>
+          <h1>heywood jablowme</h1>
         </Card.Content>
       </Card>
     )}

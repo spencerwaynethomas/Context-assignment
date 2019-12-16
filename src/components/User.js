@@ -9,7 +9,11 @@ const User = () => (
         <Card.Content>
           <Card.Header>{ value.username }</Card.Header>
           <Card.Meta>
-            first name: { value.firstName }
+            First name: { value.firstName }
+            <br />
+            Last name: { value.lastName }
+            <br />
+            email: { value.email }
           </Card.Meta>
         </Card.Content>
         <Card.Content>

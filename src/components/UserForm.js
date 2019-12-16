@@ -38,6 +38,7 @@ class UserForm extends React.Component {
         value={email}
         onChange={this.handleChange}
         />
+        <Form.Button color="purple" > Save </Form.Button>
       </Form>
     )
   }
